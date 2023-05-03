@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web RePay </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Fonts CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous">
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="mobile-navbar">
+                    <a class="navbar-brand" href="index.html">
+                        <h2>Web Repay</h2>
+                    </a>
+                    <div class="menu-wrap">
+                        <div class="navbar-end d-block d-lg-none">
+                            <a href="login.html" class="btn btn-ol-white">Login</a>
+                        </div>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Our Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.html">Website Design</a></li>
+                                <li><a class="dropdown-item" href="services.html">Website Developement</a></li>
+                                <li><a class="dropdown-item" href="services.html">Content Marketing</a></li>
+                                <li><a class="dropdown-item" href="services.html">Brand Design</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="index.html">Our Portfolio</a>
+                        </li>
+                       
+                       
+                        <li  class="nav-item"><a class="nav-link" href="#">Contact US</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <!--/Header -->
+    <section class="banner-section sec-pb">
+        <!-- <div class="banner-bg-img position-cover img-overlay">
+            <img src="images/slider-2.jpg" class="img-fluid" alt="">
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="banner-content">
+                        <span class="eyebrow-title">RESULTS DRIVEN</span>
+                        <h2 class="banner-title">Digital Marketing Agency</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas enim ex nulla accusamus voluptates, ratione optio magni placeat eum fuga dolorum nostrum recusandae! Officiis quisquam non quidem a deserunt.</p>
+                        <div class="d-flex gap-4 ">
+                            <a href="#" class="btn btn-solid btn-md">Contact Us</a>
+                            <a href="#" class="btn btn-ol-solid btn-md">See Pricing</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="banner-img">
+                        <img src="images/slider-2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container banner-container d-none">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="banner-content">
+                        <h2 class="banner-title">RESULTS <span class="text-primary">DRIVEN</span><br>
+                             DIGITAL MARKETING AGENCY </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry. Lorem Ipsum has been the</p>
+                          
+                                <form action="#" class="form">
+                                    <div class="align-items-center">
+                                            <button type="submit" class="btn btn-solid">Contact US</button>
+                                            <button type="submit" class="btn btn-dark">See Pricing</button>
+                                 </div>
+                                </form>
+                           
+                            <!--/Banner Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Banner Section -->
+    <section class="sp-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="sp-item">
+                        <div class="icon-box">
+                            <img src="images/icons/pricing_usp_04.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="sp-content">
+                            <p>Guaranteed Malware Removal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sp-item">
+                        <div class="icon-box">
+                            <img src="images/icons/firewall.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="sp-content">
+                            <p>Protection Against Future Hacks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sp-item">
+                        <div class="icon-box">
+                            <img src="images/icons/pricing_usp_03-1.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="sp-content">
+                            <p>24/7 Security Team</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sp-item">
+                        <div class="icon-box">
+                            <img src="images/icons/pricing_usp_01-1.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="sp-content">
+                            <p>30-Day Money-Back Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Featured Carousel Section -->
+    <section class="featured-section sec-py">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Web <span class="text-primary">Repay</span></h2>
+                        <p>Web Repay started as a Digital Marketing Agency that offer services to national and international clients. However, very soon, we realized that automation and technology could be leveraged to create global world-class products right here in India. We started with Red Hat Media, our digital publishing wing, and extended it to become a family or more than 100+ blogs in various industry niches. We followed it up by automating SEO through a one-of-a-kind SaaS platform- BloggerOutreach. Our constant innovating spirit led us to identify loopholes in the digital ecosystem. We developed Blog Management, a platform that would bring help monetize thousands of websites.</p>
+   
+                    </div>
+                </div>
+            </div>
+            <!--/Section Header -->
+        </div>
+    </section>
+    <section class="our-services  sec-pb">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Our  <span class="text-primary">Services</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa tempore neque id officia molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Website Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div> 
+                <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Website Development</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Logo Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>SEO </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <h2>Content Writting</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div>
+                 <div class="col-lg-4">
+                    <div class="service">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Website Design</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptate quisquam quos debitis? Quod, rem!</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--/Section Header -->
+        </div>
+    </section>
+
+    <!--/Featured Section -->
+    <section class="why-section sec-py">
+        <div class="position-cover">
+            <img src="images/why-bg.svg" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Why <span class="text-primary"> Web Repay?</span> </h2>
+                    </div>
+                </div>
+            </div>
+            <!--/Section Header -->
+            <div class="grid grid-lg-3 gap-4">
+                <div class="card">
+                    <div class="icon-box">
+                        <img src="images/icons/results.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="title">We Have Proven Results</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                    </div>
+                </div>
+                <!--/Card -->
+               
+                <div class="card">
+                    <div class="icon-box">
+                        <img src="images/icons/bullhorn.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="title">We Know Digital Marketing</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                    </div>
+                </div>
+                <!--/Card -->
+                <div class="card">
+                    <div class="icon-box">
+                        <img src="images/icons/handshake.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="title">We Put Customers First</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                    </div>
+                </div>
+                <!--/Card -->
+            </div>
+            <!--/Grid -->
+        </div>
+    </section>
+    <!--/Why Section -->
+ 
+    <section class="celebrity-section sec-py">
+        <div class="container-fluid pe-lg-0 sec-ps-8">
+            <div class="row gx-lg-0 align-items-center">
+                <div class="col-lg-4">
+                    <div class="section-header pe-lg-5">
+                        <h2 class="section-title fs-2 mb-3">Our Team</h2>
+                        <p>Bring your Dearest Superstars to your Celebrations Bring your Dearest Superstars to your Celebrations Bring your Dearest Superstars to your Celebrations </p>
+                        <a href="#" class="btn btn-solid px-4  mt-3">View All</a>
+                    </div>
+                    <!--/Section Header -->
+                </div>
+                <div class="col-lg-8">
+                    <div class="celebrity-carousel owl-carousel owl-theme">
+                        <div class="card">
+                            <figure class="img-block">
+                                <div class="before bg-5"></div>
+                                <a href="#" class="celebrity-img">
+                                    <img src="images/celebrities/1.png" class="img-fluid" alt="">
+                                </a>
+                            </figure>
+                            <div class="card-body">
+                                <h3 class="title"><a href="#">Baldev Mehta</a></h3>
+                            </div>
+                        </div>
+                        <!--/Card -->
+                        
+                        <div class="card">
+                            <figure class="img-block">
+                                <div class="before bg-6"></div>
+                                <a href="#" class="celebrity-img">
+                                    <img src="images/celebrities/3.png" class="img-fluid" alt="">
+                                </a>
+                            </figure>
+                            <div class="card-body">
+                                <h3 class="title"><a href="#">Rajendra Sura</a></h3>
+                            </div>
+                        </div>
+                        <!--/Card -->
+                       
+                        <div class="card">
+                            <figure class="img-block">
+                                <div class="before bg-5"></div>
+                                <a href="#" class="celebrity-img">
+                                    <img src="images/celebrities/1.png" class="img-fluid" alt="">
+                                </a>
+                            </figure>
+                            <div class="card-body">
+                                <h3 class="title"><a href="#">Baldev Mehta</a></h3>
+                            </div>
+                        </div>
+                        <!--/Card -->
+                       
+                        <div class="card">
+                            <figure class="img-block">
+                                <div class="before bg-6"></div>
+                                <a href="#" class="celebrity-img">
+                                    <img src="images/celebrities/3.png" class="img-fluid" alt="">
+                                </a>
+                            </figure>
+                            <div class="card-body">
+                                <h3 class="title"><a href="#">Rajendra Sura</a></h3>
+                            </div>
+                        </div>
+                        <!--/Card -->
+                    </div>
+                    <!--/Celebrity Carousel -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Popular Celebrities Section -->
+  
+    <!--/Popular Package Section -->
+    <section class="home-blog-section sec-py d-none">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title mb-3">Latest Blogs</h2>
+                <p>Check out our new blogs and trends of our pepshep celebrations </p>
+            </div>
+            <!--/Section Header -->
+            <div class="blog-grid grid grid-lg-4 gap-3 gap-lg-4">
+                <div class="card">
+                    <div class="post-img">
+                        <a href="#">
+                            <img src="images/blogposts/1.jpg" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <div class="meta-wrap">
+                                <span class="meta-item date">13 Apr, 2023</span>
+                                <span class="meta-item author"><a href="#">by Jeffery</a></span>
+                            </div>
+                            <h3 class="title"><a href="#"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--/Card-->
+                <div class="card">
+                    <div class="post-img">
+                        <a href="#">
+                            <img src="images/blogposts/2.jpg" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <div class="meta-wrap">
+                                <span class="meta-item date">13 Apr, 2023</span>
+                                <span class="meta-item author"><a href="#">by Jeffery</a></span>
+                            </div>
+                            <h3 class="title"><a href="#"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--/Card-->
+                <div class="card">
+                    <div class="post-img">
+                        <a href="#">
+                            <img src="images/blogposts/3.jpg" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <div class="meta-wrap">
+                                <span class="meta-item date">13 Apr, 2023</span>
+                                <span class="meta-item author"><a href="#">by Jeffery</a></span>
+                            </div>
+                            <h3 class="title"><a href="#"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--/Card-->
+                <div class="card">
+                    <div class="post-img">
+                        <a href="#">
+                            <img src="images/blogposts/4.jpg" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <div class="meta-wrap">
+                                <span class="meta-item date">13 Apr, 2023</span>
+                                <span class="meta-item author"><a href="#">by Jeffery</a></span>
+                            </div>
+                            <h3 class="title"><a href="#"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--/Card-->
+                <div class="card">
+                    <div class="post-img">
+                        <a href="#">
+                            <img src="images/blogposts/5.jpg" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                    <div class="card-img-overlay">
+                        <div class="card-body">
+                            <div class="meta-wrap">
+                                <span class="meta-item date">13 Apr, 2023</span>
+                                <span class="meta-item author"><a href="#">by Jeffery</a></span>
+                            </div>
+                            <h3 class="title"><a href="#"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!--/Card-->
+            </div>
+            <div class="section-btn text-center">
+                <a href="#" class="btn btn-solid">View All</a>
+            </div>
+        </div>
+    </section>
+    <!--/Blog Section -->
+   
+    <!--/Testimonial Section -->
+    <section class="cta-section sec-pb">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="cta-container">
+                        <div class="cta-bg position-cover">
+                            <img src="images/cta-bg.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <h2 class="cta-title">Ready to Grow Your Business?</h2>
+                                <p>Contact us to work with a results-driven digital marketing agency</p>
+                                <a href="#" class="btn btn-solid px-lg-4 py-2">Contact us</a>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="cta-img">
+                                    <img src="images/cta-bg.png" class="img-fluid" alt="">
+                                </div>
+                            </div>  
+                        </div>
+                       
+                    </div>
+                    <!--/CTA Container -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Cta Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-widget footer-about">
+                            <div class="footer-logo">
+                                <h2>Web <span class="text-primary">Repay</span></h2>
+                                <img src="images/footer-logo.svg" class="img-fluid" alt="">
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                            <ul class="social-list">
+                                <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                        <!--/Footer Widget -->
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="footer-widget footer-links">
+                            <h3 class="footer-title">Useful Links</h3>
+                            <ul>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="press.html">Services</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="how-it-works.html">How it Works</a></li>
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="terms.html">Terms & condition</a></li>
+                            </ul>
+                        </div>
+                        <!--/Footer Widget -->
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget footer-links">
+                            <h3 class="footer-title">Our Service</h3>
+                            <ul>
+                                <li><a href="#">Content Writting</a></li>
+                                <li><a href="#">Social Media Marketing</a></li>
+                                <li><a href="#">Brand Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                            </ul>
+                        </div>
+                        <!--/Footer Widget -->
+                    </div>
+                   
+                </div>
+            </div>
+            <!--/Footer Main -->
+            <div class="copyright">
+                <p>Copyright © 2023 Web Repay. | Developed By <a href="http://www.rayweb.in/">Rayweb</a> </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap & Jquery JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Carousel JS -->
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+    
+    <script src="js/carousel.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
